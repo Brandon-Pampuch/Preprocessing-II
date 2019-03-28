@@ -1,1 +1,18 @@
 // Mixins in here
+
+.custom-button(@padding-tb,@font-size){
+    padding: @padding-tb;
+    text-align: center;
+    background-color: @button-bg;
+    color: @white;
+    border-radius: 8px;
+    width: 82%;
+    font-size: 1.5rem;
+}
+
+
+
+.trans(@type: all, @duration: .5s){
+    transition: @type @duration;
+
+}
